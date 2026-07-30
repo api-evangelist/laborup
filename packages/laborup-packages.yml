@@ -1,0 +1,35 @@
+generated: '2026-07-19'
+method: searched
+source: npm registry search, PyPI, and the laborup.com site + github.com/laborup
+present: false
+summary: >-
+  No first-party LaborUp client libraries or SDKs were found. LaborUp publishes no
+  public API, so there is nothing for an SDK to wrap. Registries searched: npm,
+  PyPI, and the public GitHub organization. Maven Central, NuGet, pkg.go.dev,
+  RubyGems, Packagist and crates.io were not searched individually because no
+  developer surface exists to anchor a package name.
+registries_checked:
+- registry: npm
+  query: laborup
+  first_party_client_libraries: 0
+- registry: pypi
+  package: laborup
+  status: 404
+- registry: github
+  org: https://github.com/laborup
+  note: >-
+    Real organization with a single public repository, "pgsync" — an archived fork
+    of toluaina/pgsync (Postgres to Elasticsearch/OpenSearch sync, Python, MIT).
+    Infrastructure tooling, not a LaborUp API client.
+packages:
+- name: "@laborup/redwood"
+  registry: npm
+  version: 1.0.0
+  published: '2024-06-10'
+  official: false
+  is_api_client: false
+  publisher: loganoneal
+  note: >-
+    Sits under an @laborup npm scope but is a RedwoodJS framework fork published by
+    an individual account, not a LaborUp API client library. Recorded for
+    completeness; first-party status is unverified.

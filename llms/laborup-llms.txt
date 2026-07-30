@@ -1,0 +1,52 @@
+# LaborUp
+
+> LaborUp is an AI-powered recruiting platform for American manufacturing. It connects skilled industrial
+> workers — machinists, CNC programmers, welders, and maintenance technicians — with manufacturing
+> employers using voice-first AI screening, skills verification, and constraint-aware matching, backed by
+> a dedicated recruiter. The company claims 5-10x faster hiring, >50% lower cost than traditional staffing
+> agencies, 3x better post-hire retention, and a proprietary network of 25,000+ vetted workers.
+
+LaborUp was founded by Simba Jonga and raised $7.74M total ($1.935M pre-seed + $5.8M seed, announced
+2025-08-28), led by NVP with participation from Torch Capital, Threshold, Heartland VC, Daybreak,
+Westbound, Marketplace Capital, and Market Square Ventures. Early traction is concentrated in the
+Knoxville, Tennessee manufacturing corridor and in aerospace, shipbuilding, and critical infrastructure.
+
+## API status
+
+LaborUp publishes **no public API** as of 2026-07-19. There is no developer portal, no API reference, no
+OpenAPI or AsyncAPI specification, no SDKs, no CLI, no MCP server, and no `/.well-known/` resources on
+either the marketing site or the application host. The product is delivered as a hosted web/mobile
+application at app.laborup.com. `api.laborup.com` resolves but returns an origin TLS error (HTTP 525) and
+is not documented for public use. Do not assume a programmatic integration path exists; contact
+team@laborup.com for partnership or data-exchange questions.
+
+## Company
+
+- [Home](https://www.laborup.com/): Product overview for employers hiring manufacturing talent.
+- [Our Mission](https://www.laborup.com/about): Company mission and background.
+- [For Workers](https://www.laborup.com/workers): How skilled tradespeople find work through LaborUp.
+- [Customer Stories](https://www.laborup.com/customers-story): Named manufacturer case studies.
+- [Support](https://www.laborup.com/support): Help and support resources.
+- [Contact / Book a Demo](https://www.laborup.com/contact-us): Employer intake and demo request.
+- [Application](https://app.laborup.com/): The LaborUp web application — sign up and sign in.
+
+## Blog
+
+- [Blog](https://www.laborup.com/blog): Manufacturing careers, wages, trade schools, and company news.
+- [LaborUp Raises $7.7M to Power America's Industrial Workforce](https://www.laborup.com/post/laborup-raises-7-7m-to-power-americas-industrial-workforce)
+- [American Manufacturing is Back!](https://www.laborup.com/post/american-manufacturing-is-back)
+- [Celebrating 10,000 Knoxville MSA Workers Active on LaborUp](https://www.laborup.com/post/celebrating-10-000-knoxville-msa-workers-active-on-laborup)
+- [Dirty Hands, Clean Money: Salaries in Manufacturing](https://www.laborup.com/post/dirty-hands-clean-money-salaries-in-manufacturing)
+- [The Value of Trade Schools](https://www.laborup.com/post/the-value-of-trade-schools-unlocking-your-earning-potential-in-skilled-trades)
+
+## Legal
+
+- [Terms and Conditions](https://app.termly.io/policy-viewer/policy.html?policyUUID=15229ec3-1a63-4eac-9c3f-834399a63d4d)
+- [Privacy Policy](https://app.termly.io/policy-viewer/policy.html?policyUUID=29363e10-d504-48af-b31e-4f918336b7cd)
+
+## Optional
+
+- [GitHub Organization](https://github.com/laborup): One archived public repository (a pgsync fork). No API clients.
+- [API Evangelist profile](https://apis.io/provider/laborup): Network profile and rating for LaborUp.
+
+<!-- generated: '2026-07-19' method: generated source: apis.yml + laborup.com sitemap and pages -->

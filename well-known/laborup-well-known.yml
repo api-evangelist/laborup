@@ -1,0 +1,67 @@
+generated: '2026-07-19'
+method: probed
+source: live HTTP probes of laborup.com hosts
+present: false
+summary: >-
+  No .well-known resources are published. www.laborup.com (Webflow marketing site)
+  returns 404 for every probed path. app.laborup.com is an Expo single-page web app
+  whose server returns the SPA shell (HTTP 200, content-type text/html) for ALL
+  unknown paths, so its 200 responses are catch-all false positives, not real
+  well-known documents. Each probe below records the verified outcome after
+  inspecting the response body and content-type.
+hosts:
+- host: www.laborup.com
+  probes:
+  - path: /.well-known/security.txt
+    status: 404
+    present: false
+  - path: /.well-known/openid-configuration
+    status: 404
+    present: false
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    present: false
+  - path: /.well-known/api-catalog
+    status: 404
+    present: false
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    present: false
+  - path: /llms.txt
+    status: 404
+    present: false
+- host: app.laborup.com
+  note: >-
+    SPA catch-all — every path returns HTTP 200 with the Expo application shell
+    (text/html). Verified by inspecting response bodies; none are well-known documents.
+  probes:
+  - path: /.well-known/security.txt
+    status: 200
+    content_type: text/html
+    present: false
+    reason: spa-catch-all
+  - path: /.well-known/openid-configuration
+    status: 200
+    content_type: text/html
+    present: false
+    reason: spa-catch-all
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    content_type: text/html
+    present: false
+    reason: spa-catch-all
+  - path: /.well-known/api-catalog
+    status: 200
+    content_type: text/html
+    present: false
+    reason: spa-catch-all
+  - path: /.well-known/ai-plugin.json
+    status: 200
+    content_type: text/html
+    present: false
+    reason: spa-catch-all
+  - path: /llms.txt
+    status: 200
+    content_type: text/html
+    present: false
+    reason: spa-catch-all
