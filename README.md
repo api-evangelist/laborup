@@ -64,6 +64,85 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-LaborUp is a company surfaced as a portfolio company of threshold-ventures and added to the API Evangelist network as a stub for enrichment. Sector: saas. This profile is a lead awaiting the enrichment pipeline.
+LaborUp is an AI-powered recruiting platform for American manufacturing, connecting skilled industrial workers — machinists, CNC programmers, welders, and maintenance technicians — with manufacturing employers. The platform combines voice-first AI screening, skills verification, and constraint-aware matching with dedicated recruiter support, and claims 5-10x faster hiring, more than 50% lower cost than traditional staffing agencies, 3x better post-hire retention, and a proprietary network of 25,000+ vetted workers. Founded by Simba Jonga, LaborUp raised $7.74M ($1.935M pre-seed plus a $5.8M seed announced in August 2025) led by NVP with Torch Capital, Threshold, Heartland VC, Daybreak, Westbound, Marketplace Capital, and Market Square Ventures. Early traction is concentrated in the Knoxville, Tennessee manufacturing corridor and in aerospace, shipbuilding, and critical infrastructure. As of July 2026 LaborUp publishes no public API, developer portal, or specification; the product is delivered as a hosted web and mobile application.
 
-Backed by: threshold-ventures — https://www.laborup.com/
+**Areas:** Company · Software-as-a-Service · Recruiting · Staffing · Manufacturing · Human Resources · Workforce · Hiring · Artificial Intelligence · Marketplace · Skilled Trades
+
+## LaborUp on APIs.io
+
+Everything profiled for LaborUp is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/laborup/](https://apis.io/providers/laborup/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Laborup Domain Security](https://apis.io/security/laborup/laborup-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.laborup.com/)
+- [Sign up](https://app.laborup.com/)
+- [Support](https://www.laborup.com/support)
+- [Blog](https://www.laborup.com/blog)
+- [Terms of service](https://app.termly.io/policy-viewer/policy.html?policyUUID=15229ec3-1a63-4eac-9c3f-834399a63d4d)
+- [Privacy policy](https://app.termly.io/policy-viewer/policy.html?policyUUID=29363e10-d504-48af-b31e-4f918336b7cd)
+- [GitHub](https://github.com/laborup)
+
+## API Evangelist rating
+
+**Kin Score 10.6** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 12.7** — Employment & Payroll
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/laborup/](https://apis.io/providers/laborup/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for LaborUp: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/laborup/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
